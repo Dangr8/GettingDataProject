@@ -9,3 +9,4 @@ The script run_analysis.R is designed to take several text files (X_test.txt, y_
 7. Subset columns with 'mean' and 'std' in the names to match project requirements
 8. Replace activity numerical ID with actual text name
 9. Group by subject_id then by activity to show each activity that each subject did then summarize each variable within those groups to obtain the mean value so we end up with each subject having six activities
+10. write.table to generate the summary.txt data set for sharing

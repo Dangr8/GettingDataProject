@@ -27,4 +27,4 @@ activities <- c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STA
 filtereddata$activity <- activities[filtereddata$activity]
 ##summarize data
 summarizeddata <- group_by(filtereddata, subject_id, activity) %>% summarize_each(funs(mean))
-
+write.table(summarizeddata, file = "summary.txt")

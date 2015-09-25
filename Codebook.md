@@ -15,6 +15,8 @@ Included for reference are all of the variable names with their data type and a 
 *   the prefix 't' indicates time
 *   the prefix 'f' indicates frequency
   
+  
+  
     Variable Name                Variable Type        Sample Variable Data
     subject_id                   : int  1 1 1 1 1 1 2 2 2 2 ...
     activity                     : chr  "LAYING" "SITTING" "STANDING" "WALKING" ...
